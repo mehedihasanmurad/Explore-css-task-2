@@ -25,7 +25,7 @@
 
 
         .card-image {
-            box-sizing: 0 4px 8px 0 rgba(0, 0, 0, 0.2),;
+            box-sizing: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
             background-color: ghostwhite;
             color: black;
             text-align: center;
@@ -48,22 +48,42 @@
 
         .card-position {
             padding-bottom: 10px;
+            text-align: center;
         }
 
         .card-position h2 {
-            text-align: center;
             padding: 10px;
             color: rgb(39, 18, 224);
             text-transform: uppercase;
             font-family: 'Times New Roman', Times, serif;
         }
 
-        .card-position p {
-            text-align: center;
-            padding: 10px;
-            text-transform: capitalize;
+        hr {
+            /* height: 50px; */
+            width: 260px;
         }
 
+        .card-position p {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 10px;
+            text-transform: capitalize;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .card-position button {
+            color: aliceblue;
+            font-weight: 700;
+            border: none;
+            /* text-align: center; */
+            background-color: rgb(39, 18, 224);
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif`;
+        } 
+        
+        .card-position button:hover {
+            background-color: rgb(76, 76, 242);
+        }
         
     </style>
 </head>
@@ -81,9 +101,14 @@
 
     <div class="card-position">
         <h2>Terms and Condition</h2>
+        <hr>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio, ipsa?</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, eos.</p>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, neque?</p>
+        <button>Follow Me</button>
     </div>
+
+    
+
 </body>
 </html>
