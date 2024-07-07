@@ -8,13 +8,19 @@
         body{
             margin: 140px 540px;
             width: 25%;
-            text-align: center;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             font-family: Arial, Helvetica, sans-serif;
         }
 
+        .card-title {
+            padding: 30px;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+        }
+
         .card-title h1{
-            padding-top: 10px;
+            color: rgb(39, 18, 224);
         }
 
 
@@ -22,6 +28,7 @@
             box-sizing: 0 4px 8px 0 rgba(0, 0, 0, 0.2),;
             background-color: ghostwhite;
             color: black;
+            text-align: center;
         }
         
         .card-image img {
@@ -30,6 +37,7 @@
 
         .card-image h2 {
             text-transform: uppercase;
+             color: rgb(39, 18, 224);
             font-family: 'Courier New', Courier, monospace;
         }
 
@@ -38,16 +46,24 @@
             padding-bottom: 10px;
         }
 
-        footer button{
-            background-color: aqua;
-            padding: 10px 20px;
-            margin-bottom: 10px;
-            font-weight: bold;
-            color: black;
-            border-radius: 10px;
+        .card-position {
+            padding-bottom: 10px;
         }
 
-        
+        .card-position h2 {
+            text-align: center;
+            padding: 10px;
+            color: rgb(39, 18, 224);
+            text-transform: uppercase;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .card-position p {
+            text-align: center;
+            padding: 10px;
+            text-transform: capitalize;
+        }
+
         
     </style>
 </head>
@@ -61,6 +77,13 @@
         <img src="images/m1.jpg" alt="">
         <h2>Md Mehedi Hasan Murad</h2>
         <p>Mern Stack Developer</p>
+    </div>
+
+    <div class="card-position">
+        <h2>Terms and Condition</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio, ipsa?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, eos.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, neque?</p>
     </div>
 </body>
 </html>
